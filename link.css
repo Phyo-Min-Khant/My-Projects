@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    margin: 0;
+    padding: 5px 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: gray;
+    color: white;
+    background-image: url(./Image/PeakVent\ Logo.jpg);
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+header:hover {
+    background-color: rgb(111, 105, 105);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(36, 89, 110);
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    padding: 15px;
+}
+
+a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a.link1 {
+    float: right;
+}
+
+nav:hover {
+    background-color: rgb(35, 78, 95);
+}
+
+/* Section1 */
+
+.vintage {
+    padding: 10px;
+    background-color: rgb(105, 163, 105);
+}
+
+.header1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 5px;
+}
+
+.img1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+
+}
+
+.text1 {
+    word-spacing: 5px;
+}
+
+.vintage:hover {
+    background-color: rgb(90, 153, 90);
+}
+
+/* Section2 */
+
+.jeans {
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.jean1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+}
+
+.jean2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+}
+
+.header2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 6px;
+}
+
+.text2 {
+    word-spacing: 5px;
+}
+
+.jeans:hover {
+    background-color: rgb(114, 185, 213);
+}
+
+/* Section 3 */
+
+.hoodie {
+    background-color: rgb(115, 98, 98);
+    padding: 10px;
+}
+
+.header3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.hoodie1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+}
+
+.hoodie2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+}
+
+.text3 {
+    word-spacing: 3px;
+}
+
+.hoodie:hover {
+    background-color: rgb(108, 92, 92);
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(211, 139, 139);
+    padding: 10px;
+}
+
+.header4 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.text4 {
+    text-align: center;
+    color: white;
+}
+
+footer:hover {
+    background-color: rgb(192, 121, 121);
+}
